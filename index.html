@@ -1,0 +1,37 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>STATION 1 - Rapid Typing</title>
+        <link href="styles.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="favicon.png">
+        <script defer src="script.js"></script>
+    </head>
+
+    <body>
+        <body class="bg-dark text-white ">
+        <div>
+          <img src="ASSETS/title-img.png" id="title-img" class="title-img hide">
+          <image src="ASSETS/COUNTER.png" id="opening-counter" class="msg"></image>
+          <div class="countdown-text" id="countdown-text"> 5 </div>
+          <image src="ASSETS/fail-msg.png" id="fail-msg" class="msg hide"></image>
+          <image src="ASSETS/pass-msg.png" id="pass-msg" class="msg hide"></image>
+          <button class="menu-btn btn hide" id="menu-btn" onclick="window.location.href='https://interaktiv.benilde.edu.ph/?page_id=4171';">BACK TO MENU</button>
+
+          <div class="time-score">
+            <div id="timer-text" class="timer hide"> TIMER: <span id="time">10</span> </div>
+            <div id="score-text" class="score hide"> SCORE: <span id="score">0</span> </div>
+          </div>  
+
+          <!-- Word & Input -->
+          <div class="container hide" id = "container">
+            <image src="ASSETS/container.png" class="text-container hide" id="text-container"></image>      
+            <div class="instructions hide texts" id=instructions>Type the given word within 10 seconds: </div>
+            <div class="current-word hide texts" id="current-word">quote</div>
+          </div>
+
+          <input type="text" class="answer-box hide" placeholder="TYPE YOUR ANSWER HERE" id="word-input" autofocus>
+        </div>
+    </body>
+</html>
