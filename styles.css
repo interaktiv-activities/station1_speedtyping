@@ -63,7 +63,7 @@ body{
 
 .timer{
     font-family: Eathoma;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .score{
@@ -73,19 +73,41 @@ body{
     margin-bottom: 25px;
 }
 
+.container{
+    background-image: url(ASSETS/container.png);
+    background-repeat: no-repeat;
+    background-size: 700px 200px;
+    height: 200px;
+    width: 700px;
+    padding-top: 30px;
+}
+
 .instructions{
     font-family: Sofia;
     font-size: 20px;
     font-weight: 600;
     color: #2e2e2e;
+    margin: auto;
+    margin-top: 5px;
 }
 
 .current-word{
     font-family: CandyBeans;
-    margin-bottom: 5px;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 1px;
-    color: #00BCBB; 
+    color: #00BCBB;
+    margin: auto; 
+}
+
+.current-definition{
+    font-family: Sofia;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #2e2e2e; 
+    margin: auto;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .title-img{
@@ -109,15 +131,6 @@ body{
     height: 80px;
     margin-top: 10px;
     text-align: center;
-}
-
-.container{
-    background-image: url(ASSETS/container.png);
-    background-repeat: no-repeat;
-    background-size: 700px 200px;
-    height: 200px;
-    width: 700px;
-    padding-top: 45px;
 }
 
 .hide{
