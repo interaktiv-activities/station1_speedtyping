@@ -18,7 +18,7 @@ window.addEventListener("click", () => {
     backgroundMusic.pause()
   } else {
     backgroundMusic.play()
-    backgroundMusic.volume = 0.1
+    backgroundMusic.volume = 0.05
     backgroundMusic.loop = true
   }
 })
@@ -134,6 +134,7 @@ function startMatch() {
     menuButton.classList.remove('hide')
     passMessage.classList.remove('hide')
     backgroundMusic.pause()
+    winSound.volume = 0.5
     winSound.play()
   } else {
     scoreDisplay.innerHTML = score
@@ -180,7 +181,7 @@ function countdown() {
     container.classList.add('hide')
     backgroundMusic.pause()
     incorrectSound.play()
-    let incorrectSoundVolume = 1
+    let incorrectSoundVolume = .5
     incorrectSound.volume = incorrectSoundVolume
     incorrectSound--
   }
